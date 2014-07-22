@@ -1,0 +1,24 @@
+.container{
+	@include outer-container;
+}
+.row{
+	@include row(block);
+}
+.one.column{
+	@include span-columns(1);
+}
+.two.columns{
+	@include span-columns(2);
+}
+.three.columns{
+	@include span-columns(3);
+}
+.four.columns{
+	@include span-columns(4);
+}
+.five.columns{
+	@include span-columns(5);
+}
+.six.columns{
+	@include span-columns(6);
+}

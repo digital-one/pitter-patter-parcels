@@ -1,3 +1,11 @@
+/*!
+==================================================================
+
+PITTER PATTER PARCELS
+Author: Digital One
+
+==================================================================
+*/
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -358,3 +366,202 @@ th {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Bitter", serif;
+  font-size: 14px;
+  font-size: 1.75rem;
+  line-height: 120%;
+  background: #f0efe8 url("../images/bg-pattern.jpg") center center repeat;
+  color: #000; }
+
+#home-link {
+  margin: 0 auto;
+  position: relative; }
+
+.fit-grid {
+  width: 100%;
+  height: auto; }
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.row {
+  display: block; }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.one.column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 6.17215%; }
+  .one.column:last-child {
+    margin-right: 0; }
+
+.two.columns {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%; }
+  .two.columns:last-child {
+    margin-right: 0; }
+
+.three.columns {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .three.columns:last-child {
+    margin-right: 0; }
+
+.four.columns {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .four.columns:last-child {
+    margin-right: 0; }
+
+.five.columns {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%; }
+  .five.columns:last-child {
+    margin-right: 0; }
+
+.six.columns {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .six.columns:last-child {
+    margin-right: 0; }
+
+#header {
+  position: relative;
+  padding: 30px 0; }
+
+#home-link {
+  max-width: 193px;
+  height: auto; }
+
+form#search-frm {
+  width: 20%;
+  top: 30px;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  position: absolute; }
+  form#search-frm input {
+    width: 100%; }
+
+#nav {
+  width: 100%;
+  position: relative;
+  font-size: 14px;
+  font-size: 1.75rem; }
+  #nav ul {
+    clear: left;
+    float: left;
+    position: relative;
+    left: 50%;
+    text-align: center; }
+    #nav ul li {
+      display: block;
+      float: left;
+      position: relative;
+      right: 50%; }
+  #nav li.current-menu-item a:link, #nav li.current-menu-item a:visited, #nav li.current-page-ancestor a:link, #nav li.current-page-ancestor a:visited {
+    color: #fff;
+    background-color: #4fbcac; }
+  #nav li {
+    margin: 0 15px; }
+    #nav li a {
+      height: 30px;
+      line-height: 30px;
+      padding: 0 10px;
+      display: inline-block;
+      text-align: center;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; }
+      #nav li a:link, #nav li a:visited {
+        text-decoration: none; }
+      #nav li a:hover, #nav li a:active {
+        background-color: #fff; }
+
+h1, h2, h3, h4, h5 {
+  font-size: 28px;
+  font-size: 2.8rem;
+  font-weight: normal;
+  line-height: 100%;
+  margin-bottom: 20px; }
+
+h3 {
+  font-size: 18px;
+  font-size: 1.8rem; }
+
+h4 {
+  font-size: 16px;
+  font-size: 1.6rem; }
+
+ul, li {
+  margin: 0;
+  padding: 0; }
+
+p, ul, ol {
+  margin-bottom: 20px; }
+
+a:link, a:visited {
+  color: #000; }
+a:hover, a:active {
+  color: #000; }
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  padding: 0 5px;
+  font-size: 12px;
+  font-size: 1.5rem;
+  color: #000;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: none; }
+
+#category-links .column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  #category-links .column:last-child {
+    margin-right: 0; }

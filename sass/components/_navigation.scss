@@ -1,0 +1,25 @@
+#nav{
+	@include centered-menu;
+	@include wp-current-page-links{
+        color: #fff;
+		background-color: $green;
+    }
+	@include font-size(14);
+	li{
+		margin: 0 15px;
+		a{
+			height: 30px;
+			line-height: 30px;
+			padding: 0 10px;
+			display: inline-block;
+			text-align: center;
+			@include border-radius(5px);
+				&:link, &:visited{
+					text-decoration: none;
+				}
+				&:hover, &:active{
+					background-color: #fff;
+				}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+#header{
+	position: relative;
+	padding: 30px 0;
+}
+#home-link{
+	@extend %centered;
+	max-width: 193px;
+	height: auto;
+}
+form#search-frm{
+	width: 20%;
+	@include abs-pos(30px,auto,auto,0);
+	input{
+		width: 100%;
+	}
+}

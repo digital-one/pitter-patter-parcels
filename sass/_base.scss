@@ -1,0 +1,18 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: $bitter;
+	@include font-size(14);
+	line-height: 120%;
+	background: $beige url('../images/bg-pattern.jpg') center center repeat;
+	color: #000;
+}
+%centered{
+	margin:0 auto;
+	position: relative;
+}
+.fit-grid{
+	@include fill-parent;
+	height:auto;
+}

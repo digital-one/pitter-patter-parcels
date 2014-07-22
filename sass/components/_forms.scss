@@ -1,0 +1,17 @@
+input[type="text"], 
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea{
+	@include box-sizing(border-box);
+	line-height: 1;
+	height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	padding: 0 5px;
+	@include font-size(12);
+	color: #000;
+	@include border-radius(4px);
+	border: none;
+}
