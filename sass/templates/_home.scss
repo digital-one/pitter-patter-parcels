@@ -1,5 +1,30 @@
+#slider{
+	margin: 0 3px 25px;
+	height: 270px;
+	display: block;
+	background-color: #ccc;
+}
+#category-links,
+#parcels{
+	padding: 0 20px;
+}
 #category-links{
 	.column{
 		@include span-columns(4);
+	}
+	li{
+		margin-bottom: 3px;
+	}
+}
+#parcels{
+	text-align: center;
+	@extend .clearfix;
+	padding-bottom: 40px;
+	article{
+		@include span-columns(3);
+		text-align: left;
+		figure{
+			margin-bottom: 5px;
+		}
 	}
 }

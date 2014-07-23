@@ -1,11 +1,9 @@
 /*
-.text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
-	text-shadow: @string;
-}
+.box-shadow ($string: 0px 0px 5px 0px rgba(50, 50, 50, 0.75));
 */
 
-@mixin box-shadow (@string) {
-	-webkit-box-shadow: @string;
-	-moz-box-shadow:    @string;
-	box-shadow:         @string;
+@mixin box-shadow ($string: 0px 0px 5px 0px rgba(50, 50, 50, 0.2)) {
+	-webkit-box-shadow: $string;
+	-moz-box-shadow:    $string;
+	box-shadow:         $string;
 }

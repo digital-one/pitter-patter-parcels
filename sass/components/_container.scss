@@ -4,21 +4,9 @@
 .row{
 	@include row(block);
 }
-.one.column{
-	@include span-columns(1);
-}
-.two.columns{
-	@include span-columns(2);
-}
-.three.columns{
-	@include span-columns(3);
-}
-.four.columns{
-	@include span-columns(4);
-}
-.five.columns{
-	@include span-columns(5);
-}
-.six.columns{
-	@include span-columns(6);
+#main{
+	background-color: #fff;
+	@include box-shadow;
+	padding: 3px 0 0;
+	margin-bottom: 40px;
 }

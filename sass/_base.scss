@@ -4,9 +4,17 @@ html{
 body{
 	font-family: $bitter;
 	@include font-size(14);
-	line-height: 120%;
+	line-height: 130%;
 	background: $beige url('../images/bg-pattern.jpg') center center repeat;
 	color: #000;
+}
+a{
+	&:link, &:visited{
+	text-decoration: none;
+	}
+}
+ul{
+	@extend %no-list;
 }
 %centered{
 	margin:0 auto;
@@ -15,4 +23,8 @@ body{
 .fit-grid{
 	@include fill-parent;
 	height:auto;
+}
+figure{
+	padding:0;
+	margin:0;
 }

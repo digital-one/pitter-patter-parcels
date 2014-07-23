@@ -14,3 +14,20 @@ form#search-frm{
 		width: 100%;
 	}
 }
+#basket-summary{
+	@include abs-pos(30px,0,auto,auto);
+	height: 40px;
+	padding: 0;
+	display: inline-block;
+	width: auto;
+	a{
+		@include abs-pos(0 auto auto 0);
+		width: 40px;
+	}
+	span{
+		height: 40px;
+		line-height: 40px;
+		display: block;
+		padding: 0 0 0 50px;
+	}
+}

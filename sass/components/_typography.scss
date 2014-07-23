@@ -1,21 +1,24 @@
 h1,h2,h3,h4,h5{
-	font-size: 28px; font-size: 2.8rem; 
+	@include font-size(28);
 	font-weight: normal;
 	line-height: 100%;
-	margin-bottom: 20px;
+	margin: 0 0 15px;
 }
 h3{
-	font-size: 18px; font-size: 1.8rem; 
+	@include font-size(18);
 }
 h4{
-	font-size: 16px; font-size: 1.6rem; 
+	@include font-size(16);
+}
+h3,h4{
+	margin-bottom: 6px;
 }
 ul,li{
 	margin:0;
 	padding:0;
 }
 p,ul,ol {
-	margin-bottom: 20px;
+	margin: 0 0 15px;
 }
 a{
 	&:link,&:visited{

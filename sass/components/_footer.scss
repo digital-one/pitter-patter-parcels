@@ -1,0 +1,66 @@
+#footer{
+	padding: 15px 15px 0;
+	position: relative;
+	background-color: $green;
+	nav#cta-links{
+		@extend .clearfix;
+		padding: 0 0 25px;
+	li{
+		@include span-columns(4);
+		text-align: center;
+		a{
+			display: block;
+			height: 60px;
+			line-height: 60px;
+			width: 100%;
+			position: relative;
+			text-align: left;
+			padding: 0 0 0 15px;
+			@include box-sizing(border-box);
+			text-decoration: none;
+			@include transition (background-color .1s linear 0s);
+			&:link, &:visited{
+				@include rgba-bg(255,255,255,#fff,0.5);
+			}
+			&:hover, &:active{
+				@include rgba-bg(255,255,255,#fff,0.6);
+			}
+			.icon{
+				position: absolute;
+				top: 11px;
+				right: 15px;
+				width: 38px;
+				height: 38px;
+			}
+		}
+	}
+}
+	#contacts{
+		float: left;
+	}
+	#footer-links{
+		float: right;
+		@include font-size(11);
+		@include inline-menu();
+		li{
+			background: url(../images/footer-links-divide.jpg) right center no-repeat;
+			padding-right: 10px;
+			margin-right: 10px;
+			&:last-child{
+				padding: 0;
+				margin: 0;
+				background: none;
+			}
+		}
+	}
+	.footer-icon{
+		display: block;
+		width: 78px;
+		height: 81px;
+		position: absolute;
+		bottom: 20px;
+		left: 50%;
+		margin-left: -39px;
+		background-color: #fff;
+	}
+}
