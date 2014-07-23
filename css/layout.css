@@ -396,23 +396,24 @@ body:before {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.clearfix:before, #footer nav#cta-links:before, #parcels:before,
+.clearfix:before, #footer nav#cta-links:before, #category-links:before, #parcels:before,
 .clearfix:after,
 #footer nav#cta-links:after,
+#category-links:after,
 #parcels:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */ }
 
-.clearfix:after, #footer nav#cta-links:after, #parcels:after {
+.clearfix:after, #footer nav#cta-links:after, #category-links:after, #parcels:after {
   clear: both; }
 
 /**
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-.clearfix, #footer nav#cta-links, #parcels {
+.clearfix, #footer nav#cta-links, #category-links, #parcels {
   *zoom: 1; }
 
 /*
@@ -912,15 +913,17 @@ textarea {
 #parcels {
   padding: 0 20px; }
 
-#category-links .column {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%; }
-  #category-links .column:last-child {
-    margin-right: 0; }
-#category-links li {
-  margin-bottom: 3px; }
+#category-links {
+  margin-bottom: 20px; }
+  #category-links .column {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    #category-links .column:last-child {
+      margin-right: 0; }
+  #category-links li {
+    margin-bottom: 3px; }
 
 #parcels {
   text-align: center;

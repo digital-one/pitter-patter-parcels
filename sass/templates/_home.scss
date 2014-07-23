@@ -9,6 +9,8 @@
 	padding: 0 20px;
 }
 #category-links{
+	@extend .clearfix;
+	margin-bottom: 20px;
 	.column{
 		@include span-columns(4);
 	}
