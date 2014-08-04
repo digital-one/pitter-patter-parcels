@@ -5,7 +5,7 @@ body{
 	font-family: $bitter;
 	@include font-size(14);
 	line-height: 130%;
-	background: $beige url('../images/bg-pattern.jpg') center center repeat;
+	background: $beige url('../images/bg-pattern.jpg') center top repeat;
 	color: #000;
 }
 a{

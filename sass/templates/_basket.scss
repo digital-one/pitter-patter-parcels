@@ -1,0 +1,193 @@
+table{
+	width: 100%;
+	@media screen and (max-width: $break-small){
+				@include font-size(12);
+				line-height: 110%;
+			}
+	th{
+		font-weight: normal;
+		padding-bottom: 5px;
+		
+		strong{
+			font-weight: normal;
+		}
+		&.product-thumbnail{
+			@media screen and (max-width: $break-small){
+				display: none;
+			}
+		}
+	}
+	td{
+		text-align: center !important;
+		background-color: #eeeee9;
+		border-right: 2px  solid #fff;
+		border-bottom: 2px  solid #fff;
+		padding: 5px;
+		font-family: $helvetica;
+		&.product-thumbnail{
+			@media screen and (max-width: $break-small){
+				display: none;
+			}
+		}
+		&.actions{
+			text-align: left !important;
+			background-color: #fff;
+			padding: 0;
+		}
+		
+		.button{
+			font-family: $bitter;
+		}
+	}
+	.cart_table_item td{
+		text-align: left;
+	}
+	td.product-quantity input{
+		max-width: 60px;
+		background-color: #fff;
+	}
+	a.remove{;
+		background-color:$green;
+		color: #fff;
+		height:20px;
+		width: 20px;
+		line-height: 17px;
+		display: inline-block;
+		text-align: center;
+		@include border-radius(50%);
+	}
+}
+.coupon{
+	width: 100%;
+	background-color: #eeeee9;
+	padding: 20px 10px;
+	margin-bottom: 20px;
+	td {
+		text-align: left;
+	}
+	label{
+		height: 34px;
+		line-height: 34px;
+		display: inline-block;
+		float: left;
+		padding-right: 10px;
+	}
+	input{
+		width: 30%;
+		@media screen and (max-width: $break-small){
+				width: 75%;
+				float: right;
+				margin-bottom: 5px;
+			}
+	}
+}
+button[name="update_cart"]{
+	float:left;
+	@media screen and (max-width: $break-small){
+		float: none;
+		margin-bottom: 10px;
+	}
+}
+button.checkout-button{
+	float: right;
+	@media screen and (max-width: $break-small){
+		float: none;
+	}
+
+}
+.cart_totals{
+	width: 40%;
+	float: right;
+	@media screen and (max-width: $break-small){
+		width: 100%;
+	}
+}
+.cart-collaterals{
+	margin: 20px 0 0;
+	@extend .clearfix;
+	.shipping-calculator-button{
+		height: 38px;
+		line-height: 38px;
+		padding: 0 0 0 45px;
+		@include font-size(14);
+		background:url('../images/icon-shipping.png') left center no-repeat;
+		display: inline-block;
+	}
+	}
+.shipping_calculator{
+	width: 40%;
+	float: left;
+	h2, p{
+		margin-bottom: 5px;
+	}
+	@media screen and (max-width: $break-small){
+		width: 100%;
+	}
+}
+#customer_details{
+	@extend .clearfix;
+	margin-bottom: 20px;
+	label{
+		@include font-size(12);
+		font-family: $helvetica;
+	}
+	.col-1,.col-2{
+		@include span-columns(5);
+		@media screen and (max-width: $break-small){
+			@include span-columns(12);
+		}
+	}
+	.col-2{
+		@include shift(1);
+		@media screen and (max-width: $break-small){
+			@include shift(0);
+		}
+	}
+}
+#order_review{
+	tfoot th{
+		text-align: right;
+		padding-right: 10px;
+	}
+}
+#payment{
+	@extend .clearfix;
+	margin-top: 30px;
+	.payment_methods{
+		@include border-radius(6px);
+	background-color: #eeeee9;
+	padding: 10px;
+		li{
+		@extend .clearfix;
+		label{
+			height: 24px;
+			display: inline-block;
+			padding-right: 50px;
+			line-height: 24px;
+			position: relative;
+			img{
+				@include abs-pos(0,0,auto,auto);
+			}
+		}
+	}
+}
+	.payment_box{
+		display: block;
+		width: 100%;
+		font-family: $helvetica;
+		@include font-size(12);
+		margin-top: 5px;
+		p{
+			margin:0;
+		}
+	}
+	.place-order .button{
+		float: right;
+	}
+}
+.woocommerce-info{
+	background-color: #eeeee9;
+	padding: 10px;
+	@include border-radius(6px);
+}
+

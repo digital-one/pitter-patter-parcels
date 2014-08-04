@@ -1,21 +1,35 @@
 #header{
 	position: relative;
 	padding: 30px 0;
+	@media screen and (max-width: $break-small){
+		padding: 10px 0 20px;
+	}
+	.container{
+		@media screen and (max-width: $break-small){
+			padding: 60px 0 0;
+		}
+	}
 }
 #home-link{
 	@extend %centered;
 	max-width: 193px;
-	height: auto;
+	height: auto;	
 }
 form#search-frm{
 	width: 20%;
-	@include abs-pos(30px,auto,auto,0);
+	@include abs-pos(0,auto,auto,0);
+	@media screen and (max-width: $break-large) {
+		width: 25%;
+	}
+	@media screen and (max-width: $break-small) {
+		width: 40%;
+	}
 	input{
 		width: 100%;
 	}
 }
 #basket-summary{
-	@include abs-pos(30px,0,auto,auto);
+	@include abs-pos(0,0,auto,auto);
 	height: 40px;
 	padding: 0;
 	display: inline-block;

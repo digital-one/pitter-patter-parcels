@@ -1,12 +1,53 @@
 .container{
 	@include outer-container;
+	position: relative;
 }
 .row{
 	@include row(block);
 }
-#main{
+#wrap{
 	background-color: #fff;
 	@include box-shadow;
-	padding: 3px 0 0;
 	margin-bottom: 40px;
+	#content{
+		padding: 3px;
+
+		@extend .clearfix;
+	}
+}
+aside{
+	@include span-columns(3);
+	@media screen and (max-width: $break-large) {
+		@include span-columns(4);
+	}
+	@media screen and (max-width: $break-small) {
+		@include span-columns(12);
+		@include omega;
+	}
+}
+#main{
+	@include span-columns(9);
+	@media screen and (max-width: $break-large) {
+		@include span-columns(8);
+	}
+	@media screen and (max-width: $break-small) {
+		@include span-columns(12);
+		
+	}
+	#inner{
+		padding: 30px 20px 50px 0;
+		@media screen and (max-width: $break-small) {
+			padding: 20px 10px;
+		}
+	}
+	#banner{
+		margin-left: -3.2%;
+		border-left:3px solid #fff;
+	}
+}
+#full-width-inner{
+	padding:20px 20px 50px;
+		@media screen and (max-width: $break-small) {
+			padding:10px 5px 30px;
+		}
 }

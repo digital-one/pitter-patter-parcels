@@ -1,13 +1,37 @@
 #nav{
-	@include centered-menu;
+	  @media screen and (min-width: $break-small+1){
+		@include centered-menu;
+			overflow: hidden;
+	  }
+
 	@include wp-current-page-links{
         color: #fff;
 		background-color: $green;
     }
+    @media screen and (max-width: $break-small){
+    	@include wp-current-page-links{
+        color: #000;
+		background-color: white;
+    }
+    }
+    @media screen and (max-width: $break-small){
+			margin-bottom: 20px;
+		}
 	@include font-size(14);
+	ul{
+		@media screen and (max-width: $break-small){
+			display: none;
+		}
+	}
 	li{
 		margin: 0 15px;
-		a{
+		@media screen and (max-width: $break-small){
+			margin: 0 0 4px;
+			width: 100%;
+		}
+		
+	}
+	a{
 			height: 30px;
 			line-height: 30px;
 			padding: 0 10px;
@@ -21,6 +45,26 @@
 				&:hover, &:active{
 					background-color: #fff;
 				}
+				&#mobile-menu{
+					background-color: $green;
+					color: white;
+					margin-bottom: 5px;
+					display: none;
+					@media screen and (max-width: $break-small){
+						display: inline-block;
+					}
+				}
+				@media screen and (max-width: $break-small){
+					width: 100%;
+					padding: 0;
+					background-color: #f0efe8;
+				}
 		}
+}
+#sub-nav{
+	@include rgba-bg($r:140,$g:200,$b:192,$hex:$green,$opacity:0.2);
+	padding: 30px 4% 15px;
+	li{
+		margin-bottom: 3px;
 	}
 }

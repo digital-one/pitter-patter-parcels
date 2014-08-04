@@ -1,5 +1,8 @@
 #footer{
 	padding: 15px 15px 0;
+		@media screen and (max-width: $break-small){
+			padding-bottom: 100px;
+		}
 	position: relative;
 	background-color: $green;
 	nav#cta-links{
@@ -7,6 +10,11 @@
 		padding: 0 0 25px;
 	li{
 		@include span-columns(4);
+		@media screen and (max-width: $break-small){
+			@include span-columns(12);
+			@include omega;
+			margin-bottom: 5px;
+		}
 		text-align: center;
 		a{
 			display: block;
@@ -37,11 +45,27 @@
 }
 	#contacts{
 		float: left;
+		@media screen and (max-width: $break-small){
+			@include span-columns(12);
+			@include omega;
+			text-align: center;
+		}
+		a{
+			border-bottom: 1px solid transparent;
+			&:hover, &:active{
+				border-bottom: 1px dotted #000;
+			}
+		}
 	}
 	#footer-links{
 		float: right;
 		@include font-size(11);
 		@include inline-menu();
+		@media screen and (max-width: $break-small){
+			@include span-columns(12);
+			@include omega;
+			@include centered-menu;
+		}
 		li{
 			background: url(../images/footer-links-divide.jpg) right center no-repeat;
 			padding-right: 10px;
@@ -51,6 +75,14 @@
 				margin: 0;
 				background: none;
 			}
+			a{
+				border-bottom: 1px solid transparent;
+				&:hover, &:active{
+					border-bottom: 1px dotted #000;
+				}
+			}
+
+			
 		}
 	}
 	.footer-icon{

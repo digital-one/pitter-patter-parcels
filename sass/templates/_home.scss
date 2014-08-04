@@ -1,8 +1,65 @@
 #slider{
-	margin: 0 3px 25px;
-	height: 270px;
+	margin: 0 0 25px;
+	height: auto;
 	display: block;
 	background-color: #ccc;
+	@media screen and (max-width: $break-small){
+			height: auto;
+	}
+	
+	.slide{
+		height: 100%;
+		@extend %full-width;
+		overflow: hidden;
+		position: relative;
+		vertical-align: middle;
+		&:before{
+			content: "";
+     		display: inline-block;
+     		vertical-align: middle;
+     		height: 100%;
+		}
+		.bar{
+			display: inline-block;
+			vertical-align: middle;
+			background-color: #f6ccd6;
+			z-index: 2;
+			width: 58%;
+			position: relative;
+			@include font-size(22);
+			line-height: 130%;
+			padding: 3% 60px 3% 30px;
+			@media screen and (max-width: $break-large){
+				@include font-size(20);
+			}
+			@media screen and (max-width: $break-medium){
+				padding: 2% 60px 2% 30px;
+			}
+			@media screen and (max-width: $break-small){
+				margin-top:150px;
+				width: 100%;
+				padding: 5% 3%;
+				@include font-size(17);
+				text-align: center;
+			}
+		}
+		img{
+			width: 100%;
+			height: auto;
+			@include abs-pos(0,auto,auto,0);
+			@media screen and (max-width: $break-small){
+				height: 150px;
+				width: auto;
+				@include abs-pos(0,0,auto,auto);
+			}
+			&.front{
+				z-index: 3;
+			}
+			&.back{
+				z-index: 1;
+			}
+		}
+	}
 }
 #category-links,
 #parcels{
@@ -13,6 +70,9 @@
 	margin-bottom: 20px;
 	.column{
 		@include span-columns(4);
+		@media screen and (max-width: $break-small){
+			@include span-columns(12);
+		}
 	}
 	li{
 		margin-bottom: 3px;
@@ -25,8 +85,14 @@
 	article{
 		@include span-columns(3);
 		text-align: left;
-		figure{
-			margin-bottom: 5px;
+		@media screen and (max-width: $break-medium){
+			@include span-columns(6);
+			@include omega(2n);
+			margin-bottom: 20px;
+		}
+		@media screen and (max-width: $break-small){
+			@include span-columns(12);
+			@include omega;
 		}
 	}
 }

@@ -1,9 +1,21 @@
-$max-width: 1000px; //overide neat outer container width
-$visual-grid: true;
+//neat overrides
+
+$max-width: 974px; //overide neat outer container width
+$visual-grid: false; 
+
+//colours
+
 $pink: #eda5b7;
 $blue: #028acd;
 $green: #8cc8c0;
 $salmon: #b39e92;
 $beige: #f0efe8;
+
+//fonts
+
 $bitter: "Bitter", serif;
 
+//break points
+$break-small: 639px;
+$break-medium: 767px;
+$break-large: 999px;
