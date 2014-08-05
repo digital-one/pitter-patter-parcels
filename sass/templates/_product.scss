@@ -2,9 +2,14 @@
 	margin-bottom: 20px;
 	.image{
 		@include span-columns(4 of 9);
+		figure{
+			border: 1px solid #e1e1e1;
+			margin-bottom: 10px;
+		}
 		@media screen and (max-width: $break-large) {
 		@include span-columns(7 of 8);
 		margin-bottom: 20px;
+
 		}
 		@media screen and (max-width: $break-small) {
 			@include span-columns(12);
@@ -99,4 +104,8 @@
 	h2,h3,h5,h5 a{
 		color:$blue !important;
 	}
+}
+.labels {
+  border-collapse:collapse;
+  width:auto;
 }

@@ -34,4 +34,8 @@
 		@include font-size(38);
 		color: #8cc8c0;
 	}
+	p{
+		font-family: $bitter;
+		@include font-size(14);
+	}
 }

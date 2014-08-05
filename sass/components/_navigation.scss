@@ -37,6 +37,7 @@
 			padding: 0 10px;
 			display: inline-block;
 			text-align: center;
+			font-family: $bitter;
 			@include transition (background-color .1s linear 0s);
 			@include border-radius(5px);
 				&:link, &:visited{

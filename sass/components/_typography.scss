@@ -3,6 +3,8 @@ h1,h2,h3,h4,h5{
 	font-weight: normal;
 	line-height: 100%;
 	margin: 0 0 15px;
+	font-family: $bitter;
+	color: #000;
 }
 h1{
 	color: $pink;
@@ -18,7 +20,7 @@ h4{
 }
 h5{
 	@include font-size(14);
-	margin-bottom: 2px;
+	margin-bottom: 8px;
 }
 h3,h4{
 	margin-bottom: 6px;
@@ -29,6 +31,9 @@ ul,li{
 }
 p,ul,ol {
 	margin: 0 0 15px;
+}
+p{
+	margin-bottom: 10px;
 }
 a{
 	&:link,&:visited{
