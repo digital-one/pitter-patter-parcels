@@ -564,6 +564,7 @@ form#search-frm {
   bottom: auto;
   left: auto;
   position: absolute;
+  font-family: "Bitter", serif;
   height: 40px;
   padding: 0;
   display: inline-block;
@@ -1841,7 +1842,8 @@ figure {
 
 .labels {
   border-collapse: collapse;
-  width: auto; }
+  width: auto;
+  margin: 50px 0 0; }
 
 table.shop_table {
   width: 100%; }

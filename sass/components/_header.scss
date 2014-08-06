@@ -30,6 +30,7 @@ form#search-frm{
 }
 #basket-summary{
 	@include abs-pos(0,0,auto,auto);
+	font-family: $bitter;
 	height: 40px;
 	padding: 0;
 	display: inline-block;
