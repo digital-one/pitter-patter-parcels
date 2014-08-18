@@ -28,14 +28,20 @@
 <!--main-->
 <div id="main" role="main" class="blue">
     <div id="inner">
-    <header id="category-header">
+    <header id="page-header" class="category">
     <h1>&pound;40 Parcels</h1>
     <h2>Little Pirate</h2>
        <p>Arr harr me hearties. A perfect box for a perfect little pirate.</p>
 </header>
 
    <div id="product" class="clearfix">
-   <div class="image"><figure><img src="images/product-detail-img.jpg" class="fit-grid" /></figure>
+   <div class="image">  <figure><a class="zoom"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a></figure>
+   <div id="gallery">
+ <a class="fancybox" href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
+  <a class="fancybox"  href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
+   <a class="fancybox"  href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
+    <a class="fancybox"  href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
+</div>
     <form method="post" action="" id="add-to-basket">
         <ul>
             <li>

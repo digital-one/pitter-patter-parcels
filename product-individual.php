@@ -35,7 +35,14 @@
 </header>
 
    <div id="product" class="clearfix">
-   <div class="image"><figure><img src="images/stripy-onesie-tn.jpg" class="fit-grid" /></figure>
+<div class="image"><figure><a class="zoom"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a></figure>
+   <div id="gallery">
+ <a class="fancybox" href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
+  <a class="fancybox"  href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
+   <a class="fancybox"  href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
+    <a class="fancybox"  href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
+</div>
+
     <form method="post" action="" id="add-to-basket">
         <ul>
             <li>

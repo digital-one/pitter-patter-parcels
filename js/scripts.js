@@ -22,4 +22,23 @@ $(window).resize(function(){
 	resizeSlider();
 })
 
+$("#zoom").elevateZoom({
+	gallery:'gallery',
+	cursor: 'pointer',
+	zoomType : "inner",
+	galleryActiveClass: "active",
+	imageCrossfade: true,
+	zoomWindowWidth:'100%',
+    zoomWindowHeight:200,
+	loadingIcon: "http://www.elevateweb.co.uk/spinner.gif"
+}); 
+
+$('.fancybox').fancybox({
+
+})
+$('.zoom').on('click',function(e){
+	e.preventDefault();
+	$('.fancybox').eq(0).trigger('click');
+})
+
 })

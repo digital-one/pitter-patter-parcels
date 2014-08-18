@@ -376,13 +376,14 @@ th {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.clearfix:before, #wrap #content:before, #footer nav#cta-links:before, #category-links:before, #parcels:before, #related:before, .cart-collaterals:before, #customer_details:before, #payment:before, #payment .payment_methods li:before,
+.clearfix:before, #wrap #content:before, #footer nav#cta-links:before, #category-links:before, #parcels:before, #related:before, #gallery:before, .cart-collaterals:before, #customer_details:before, #payment:before, #payment .payment_methods li:before,
 .clearfix:after,
 #wrap #content:after,
 #footer nav#cta-links:after,
 #category-links:after,
 #parcels:after,
 #related:after,
+#gallery:after,
 .cart-collaterals:after,
 #customer_details:after,
 #payment:after,
@@ -392,14 +393,14 @@ th {
   display: table;
   /* 2 */ }
 
-.clearfix:after, #wrap #content:after, #footer nav#cta-links:after, #category-links:after, #parcels:after, #related:after, .cart-collaterals:after, #customer_details:after, #payment:after, #payment .payment_methods li:after {
+.clearfix:after, #wrap #content:after, #footer nav#cta-links:after, #category-links:after, #parcels:after, #related:after, #gallery:after, .cart-collaterals:after, #customer_details:after, #payment:after, #payment .payment_methods li:after {
   clear: both; }
 
 /**
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-.clearfix, #wrap #content, #footer nav#cta-links, #category-links, #parcels, #related, .cart-collaterals, #customer_details, #payment, #payment .payment_methods li {
+.clearfix, #wrap #content, #footer nav#cta-links, #category-links, #parcels, #related, #gallery, .cart-collaterals, #customer_details, #payment, #payment .payment_methods li {
   *zoom: 1; }
 
 /*
@@ -1729,7 +1730,10 @@ figure {
       margin-right: 0; }
     #product .image figure {
       border: 1px solid #e1e1e1;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      display: block; }
+      #product .image figure a {
+        cursor: pointer; }
     @media screen and (max-width: 999px) {
       #product .image {
         float: left;
@@ -1877,6 +1881,16 @@ figure {
   border-collapse: collapse;
   width: auto;
   margin: 50px 0 0; }
+
+#gallery {
+  margin-bottom: 30px; }
+  #gallery a {
+    border: 1px solid #e1e1e1;
+    float: left;
+    width: 23.5%;
+    margin-right: 2%; }
+    #gallery a:nth-child(4) {
+      margin: 0; }
 
 table.shop_table {
   width: 100%; }

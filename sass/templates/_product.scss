@@ -5,6 +5,10 @@
 		figure{
 			border: 1px solid #e1e1e1;
 			margin-bottom: 10px;
+			display: block;
+			a{
+				cursor:pointer;
+			}
 		}
 		@media screen and (max-width: $break-large) {
 		@include span-columns(7 of 8);
@@ -113,4 +117,17 @@
   border-collapse:collapse;
   width:auto;
   margin: 50px 0 0;
+}
+#gallery{
+	@extend .clearfix;
+	margin-bottom:30px;
+	a{
+	border: 1px solid #e1e1e1;
+	float: left;
+	width: 23.5%;
+	margin-right:2%;
+	&:nth-child(4){
+		margin:0;
+	}
+}
 }
