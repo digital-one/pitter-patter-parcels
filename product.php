@@ -35,12 +35,12 @@
 </header>
 
    <div id="product" class="clearfix">
-   <div class="image">  <figure><a class="zoom"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a></figure>
+   <div class="image">  <figure><a><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a></figure>
    <div id="gallery">
- <a class="fancybox" href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
-  <a class="fancybox"  href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
-   <a class="fancybox"  href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
-    <a class="fancybox"  href="images/stripy-onesie.jpg" rel="gallery"><img src="images/stripy-onesie-tn.jpg" class="fit-grid"  /></a>
+ <a><img src="images/stripy-onesie-tn.jpg" class="fit-grid" data-zoom-image="images/stripy-onesie.jpg"  /></a>
+ <a><img src="images/star-door-hanger-tn.jpg" class="fit-grid"  data-zoom-image="images/star-door-hanger.jpg" /></a>
+  <a><img src="images/eggbox-socks-tn.jpg" class="fit-grid" data-zoom-image="images/eggbox-socks.jpg"  /></a>
+   <a><img src="images/stripy-onesie-tn.jpg" class="fit-grid" data-zoom-image="images/stripy-onesie.jpg"  /></a>
 </div>
     <form method="post" action="" id="add-to-basket">
         <ul>

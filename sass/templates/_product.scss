@@ -122,10 +122,11 @@
 	@extend .clearfix;
 	margin-bottom:30px;
 	a{
-	border: 1px solid #e1e1e1;
-	float: left;
-	width: 23.5%;
-	margin-right:2%;
+		border: 1px solid #e1e1e1;
+		float: left;
+		width: 23.5%;
+		margin-right:2%;
+		cursor: pointer;
 	&:nth-child(4){
 		margin:0;
 	}

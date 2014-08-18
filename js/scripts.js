@@ -32,10 +32,31 @@ $("#zoom").elevateZoom({
     zoomWindowHeight:200,
 	loadingIcon: "http://www.elevateweb.co.uk/spinner.gif"
 }); 
-
-$('.fancybox').fancybox({
-
+//build fancybox links
+$('.image figure').after('<div class="fancybox-links" />');
+$('.fancybox-links').css({
+	display: 'none'
 })
+var $links = $('#gallery a'),
+	$large_img = $('.image figure img'),
+	$index = 0;
+$links.each(function(index){
+	var $src= $('img',this).attr('data-zoom-image');
+	$('.fancybox-links').append('<a class="fancybox" href="'+$src+'" rel="gallery" />')
+	$(this).on('click',function(evt){
+		evt.preventDefault();
+		var $src = $('img',this).attr('src');
+		$large_img.attr('src',$src);
+		$index = $links.index(this);
+	})
+})
+$large_img.parent('a').on('click',function(evt){
+	evt.preventDefault();
+	$('.fancybox-links a').eq($index).trigger('click');
+})
+$('.fancybox').fancybox();
+
+
 $('.zoom').on('click',function(e){
 	e.preventDefault();
 	$('.fancybox').eq(0).trigger('click');

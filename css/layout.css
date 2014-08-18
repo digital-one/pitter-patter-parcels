@@ -1888,7 +1888,8 @@ figure {
     border: 1px solid #e1e1e1;
     float: left;
     width: 23.5%;
-    margin-right: 2%; }
+    margin-right: 2%;
+    cursor: pointer; }
     #gallery a:nth-child(4) {
       margin: 0; }
 
