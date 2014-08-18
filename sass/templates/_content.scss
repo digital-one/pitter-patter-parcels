@@ -1,0 +1,6 @@
+.col-left{
+	@include span-columns(6 of 9);
+}
+.col-right{
+	@include span-columns(3 of 9);
+}

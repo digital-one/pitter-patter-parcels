@@ -28,13 +28,14 @@
 <!--main-->
 <div id="main" role="main">
     <div id="inner">
-    <header id="category-header">
+    <header id="page-header" class="category">
     <h1>Parcels by price</h1>
     <h2>&pound;40 Parcels</h2>
+       <p>For just &pound;40 you can send a wonderful box of gifts for that special new arrival. The proud parents will be delighted to receive this perfect parcel containing, either a toy, sleepsuit, comforter, muslin, socks or a bib. For just an extra £6 why not add a star shaped door hanger. Just add it to the basket at the end and give us the details you’d like adding.</p>
 </header>
-   <p>For just &pound;40 you can send a wonderful box of gifts for that special new arrival. The proud parents will be delighted to receive this perfect parcel containing, either a toy, sleepsuit, comforter, muslin, socks or a bib. For just an extra £6 why not add a star shaped door hanger. Just add it to the basket at the end and give us the details you’d like adding.</p>
+
    <div id="category">
-    <div class="clearfix">
+    <div class="row clearfix">
    <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Little Pirate</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="blue button"><span class="button-inner">Have a look inside<span class="small icon">
 <img class="fit-grid" src="images/icon-look.png">
 </span></span></a></article>
@@ -42,7 +43,7 @@
 <img class="fit-grid" src="images/icon-look.png">
 </span></span></a></article>
 </div>
-<div class="clearfix">
+<div class="row clearfix">
  <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Brite &amp; Beautiful</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="blue button"><span class="button-inner">Have a look inside<span class="small icon">
 <img class="fit-grid" src="images/icon-look.png">
 </span></span></a></article>

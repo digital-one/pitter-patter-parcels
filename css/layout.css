@@ -813,7 +813,7 @@ h1, h2, h3, h4, h5 {
   color: #000; }
 
 h1 {
-  color: #eda5b7; }
+  color: #8cc8c0; }
 
 h2 {
   font-size: 28px;
@@ -1534,6 +1534,7 @@ figure {
       background-color: #f6ccd6;
       z-index: 2;
       width: 58%;
+      font-family: "Bitter", serif;
       position: relative;
       font-size: 22px;
       font-size: 2.2rem;
@@ -1634,6 +1635,22 @@ figure {
         #parcels article:last-child {
           margin-right: 0; } }
 
+.col-left {
+  float: left;
+  display: block;
+  margin-right: 3.16844%;
+  width: 65.61052%; }
+  .col-left:last-child {
+    margin-right: 0; }
+
+.col-right {
+  float: left;
+  display: block;
+  margin-right: 3.16844%;
+  width: 31.22104%; }
+  .col-right:last-child {
+    margin-right: 0; }
+
 #category article {
   float: left;
   display: block;
@@ -1669,22 +1686,35 @@ figure {
       #category article .button {
         width: 100% !important; } }
 
-#category-header {
+#page-header {
   margin-bottom: 30px; }
   @media screen and (max-width: 639px) {
-    #category-header {
+    #page-header {
       margin-bottom: 10px; } }
-  #category-header h1 {
+  #page-header h1 {
+    font-size: 38px;
+    font-size: 3.8rem;
+    color: #8cc8c0; }
+  #page-header.category h1 {
     font-size: 20px;
     font-size: 2rem;
     margin-bottom: 5px;
     color: #000; }
-  #category-header h2 {
+  #page-header h2 {
+    font-size: 20px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #000; }
+  #page-header.category h2 {
     font-size: 38px;
     font-size: 3.8rem;
     color: #8cc8c0; }
-  #category-header p {
-    font-family: "Bitter", serif;
+  #page-header.girls h2 {
+    color: #eda5b7; }
+  #page-header.boys h2 {
+    color: #028acd; }
+  #page-header p {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem; }
 
@@ -1738,7 +1768,10 @@ figure {
       font-size: 1.2rem;
       display: block;
       height: 47px;
-      position: relative; }
+      position: relative;
+      margin-bottom: 4px; }
+      #product .box-contents li h5 {
+        margin-bottom: 2px; }
       @media screen and (max-width: 999px) {
         #product .box-contents li {
           float: left;

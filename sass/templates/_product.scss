@@ -26,6 +26,10 @@
 			display: block;
 			height:47px;
 			position: relative;
+			margin-bottom: 4px;
+			h5{
+				margin-bottom: 2px;
+			}
 			@media screen and (max-width: $break-large) {
 				@include span-columns(4 of 8);
 				@include omega(2n);

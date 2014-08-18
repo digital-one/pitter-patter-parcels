@@ -19,23 +19,38 @@
 	}
 	}
 }
-#category-header{
+#page-header{
 	margin-bottom: 30px;
 	@media screen and (max-width: $break-small) {
 		margin-bottom: 10px;
 	}
 	h1{
-		@include font-size(20);
-
-		margin-bottom:5px;
-		color: #000;
-	}
-	h2{
 		@include font-size(38);
 		color: #8cc8c0;
 	}
+	&.category h1{
+		@include font-size(20);
+		margin-bottom: 5px;
+		color: #000;
+	}
+	h2{
+		@include font-size(20);
+		margin-bottom:10px;
+		color: #000;
+	}
+	&.category h2{
+		@include font-size(38);
+		color: #8cc8c0;
+	}
+	&.girls h2{
+		color: $pink;
+	}
+	&.boys h2{
+		color: $blue;
+	}
 	p{
-		font-family: $bitter;
+		font-family: $helvetica;
 		@include font-size(14);
 	}
 }
+

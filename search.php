@@ -28,15 +28,14 @@
 <!--main-->
 <div id="main" role="main">
     <div id="inner">
-    <header id="page-header" class="girls category">
-    <h1>Parcels by gender</h1>
-    <h2>Girls</h2>
-     <p>For just &pound;40 you can send a wonderful box of gifts for that special new arrival. The proud parents will be delighted to receive this perfect parcel containing, either a toy, sleepsuit, comforter, muslin, socks or a bib. For just an extra £6 why not add a star shaped door hanger. Just add it to the basket at the end and give us the details you’d like adding.</p>
+    <header id="page-header">
+    <h1>Search Results</h1>
+    <h2>2 items matched your search for 'Parcel'</h2>
 </header>
-  
+
    <div id="category">
     <div class="row clearfix">
-   <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Little Princess - Small</h3><p><strong>&pound;25.00</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="pink button"><span class="button-inner">Have a look inside<span class="small icon">
+   <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Little Pirate - Small</h3><p><strong>&pound;25.00</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="blue button"><span class="button-inner">Have a look inside<span class="small icon">
 <img class="fit-grid" src="images/icon-look.png">
 </span></span></a></article>
      <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Little Princess - Medium</h3><p><strong>&pound;40.00</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="pink button"><span class="button-inner">Have a look inside<span class="small icon">
@@ -44,11 +43,12 @@
 </span></span></a></article>
 </div>
 <div class="row clearfix">
- <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Little Princess - Large</h3><p><strong>&pound;60.00</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="pink button"><span class="button-inner">Have a look inside<span class="small icon">
+ <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Pure &amp; Simple - Large</h3><p><strong>&pound;60.00</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="salmon button"><span class="button-inner">Have a look inside<span class="small icon">
 <img class="fit-grid" src="images/icon-look.png">
 </span></span></a></article>
-
-   
+   <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Bright &amp; Beautiful - Large</h3><p><strong>&pound;60.00</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="green button"><span class="button-inner">Have a look inside<span class="small icon">
+<img class="fit-grid" src="images/icon-look.png">
+</span></span></a></article>
 </div>
 </div>
 </div>
