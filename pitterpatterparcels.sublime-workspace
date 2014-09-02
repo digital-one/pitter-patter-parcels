@@ -363,86 +363,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "product-personalised.php",
-			"settings":
-			{
-				"buffer_size": 6506,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/templates/_product.scss",
-			"settings":
-			{
-				"buffer_size": 2074,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/_base.scss",
-			"settings":
-			{
-				"buffer_size": 400,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/components/_global.scss",
-			"settings":
-			{
-				"buffer_size": 1881,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/components/_typography.scss",
-			"settings":
-			{
-				"buffer_size": 561,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/components/_navigation.scss",
-			"settings":
-			{
-				"buffer_size": 1444,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/components/_footer.scss",
-			"settings":
-			{
-				"buffer_size": 1923,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/templates/_category.scss",
-			"settings":
-			{
-				"buffer_size": 727,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/templates/_basket.scss",
-			"settings":
-			{
-				"buffer_size": 3260,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/components/_header.scss",
-			"settings":
-			{
-				"buffer_size": 787,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -472,33 +392,45 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_forms.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_global.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_navigation.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/templates/_basket.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/basket.php",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/checkout.php",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/js/scripts.js",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/parcels.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/templates/_product.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/product.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/footer.html",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/templates/_all.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/packaging.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/product-individual.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/templates/_content.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/parcels-by-gender-boys.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_typography.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/index.php",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/templates/_category.scss",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/parcels-by-you-items.php",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/index.php",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/product-personalised.php",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_footer.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/_variables.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/templates/_home.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/parcels-by-price.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/parcels-by-gender-unisex.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/parcels-by-gender-girls.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/search.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/js/scripts.js",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/header.html",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/footer.html",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/templates/_product.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_global.scss",
+		"/Users/neilmills/Downloads/banners.js",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/js/jquery.elevatezoom.js",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/product-personalised.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/about.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/js/magnify.js",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_header.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/templates/_basket.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_footer.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_navigation.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/_base.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/templates/_home.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_forms.scss",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/basket.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/checkout.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/parcels.php",
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/_variables.scss",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/category.php",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_typography.scss",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_container.scss",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/templates/_media-queries.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/product.php",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/_base.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/templates/_all.scss",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_centered-menu.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/components/_header.scss",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/images/banner-bg.jpg",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/_placeholders.scss",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_font-size.scss",
@@ -587,19 +519,7 @@
 		"/Applications/MAMP/htdocs/pitter_patter_parcels/sass/_normalize.scss",
 		"/Applications/MAMP/htdocs/pitter_patter_parcels/sass/_settings.scss",
 		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/layout.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/pages/ms-ft-reps.xsl",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/games/278329/bower_components/jasmine/spec/support/dev_boot.js",
-		"/Applications/MAMP/htdocs/corporate_resolve/sass/_media_queries.scss",
-		"/Applications/MAMP/htdocs/corporate_resolve/sass/_grid_12col.scss",
-		"/Applications/MAMP/htdocs/corporate_resolve/sass/_layout.scss",
-		"/Applications/MAMP/htdocs/corporate_resolve/archive-news.php",
-		"/Applications/MAMP/htdocs/corporate_resolve/header.php",
-		"/Applications/MAMP/htdocs/corporate_resolve/js/modernizr.js",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/js/modernizr.js",
-		"/Applications/MAMP/htdocs/corporate_resolve/footer.php",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/games/278329/sass/game.scss",
-		"/Applications/MAMP/htdocs/corporate_resolve/index.php",
-		"/Applications/MAMP/htdocs/corporate_resolve/header-home.php"
+		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/pages/ms-ft-reps.xsl"
 	],
 	"find":
 	{
@@ -618,6 +538,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"titan",
+			"console",
+			"zoomContainer",
+			"zoomWindow",
 			"<script",
 			"text",
 			"transition",
@@ -741,11 +665,7 @@
 			"overflow",
 			"sticker",
 			"iframe",
-			"ie8",
-			"ie9",
-			"99",
-			"100%",
-			"debugger"
+			"ie8"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -891,280 +811,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "product-personalised.php",
-					"settings":
-					{
-						"buffer_size": 6506,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5039,
-								5039
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 350.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sass/templates/_product.scss",
-					"settings":
-					{
-						"buffer_size": 2074,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2064,
-								2064
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 671.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sass/_base.scss",
-					"settings":
-					{
-						"buffer_size": 400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24,
-								24
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sass/components/_global.scss",
-					"settings":
-					{
-						"buffer_size": 1881,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1863,
-								1863
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 626.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sass/components/_typography.scss",
-					"settings":
-					{
-						"buffer_size": 561,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8,
-								8
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sass/components/_navigation.scss",
-					"settings":
-					{
-						"buffer_size": 1444,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								774,
-								774
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "sass/components/_footer.scss",
-					"settings":
-					{
-						"buffer_size": 1923,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								320,
-								276
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "sass/templates/_category.scss",
-					"settings":
-					{
-						"buffer_size": 727,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								721,
-								721
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "sass/templates/_basket.scss",
-					"settings":
-					{
-						"buffer_size": 3260,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								128,
-								128
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "sass/components/_header.scss",
-					"settings":
-					{
-						"buffer_size": 787,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								574,
-								574
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -1088,12 +1088,14 @@ form#add-to-basket {
       position: absolute;
       top: 3px;
       right: 3px;
+      line-height: 38px;
       background-color: transparent; }
       .button .button-inner .icon.small {
         width: 21px;
         height: 21px;
+        line-height: 21px;
         right: 10px;
-        top: 3px; }
+        top: 12px; }
   .button.inline {
     display: inline-block;
     width: auto; }
@@ -1182,12 +1184,14 @@ form#add-to-basket {
       position: absolute;
       top: 3px;
       right: 3px;
+      line-height: 38px;
       background-color: transparent; }
       .button.pink .button-inner .icon.small {
         width: 21px;
         height: 21px;
+        line-height: 21px;
         right: 10px;
-        top: 3px; }
+        top: 12px; }
   .button.pink.inline {
     display: inline-block;
     width: auto; }
@@ -1276,12 +1280,14 @@ form#add-to-basket {
       position: absolute;
       top: 3px;
       right: 3px;
+      line-height: 38px;
       background-color: transparent; }
       .button.green .button-inner .icon.small {
         width: 21px;
         height: 21px;
+        line-height: 21px;
         right: 10px;
-        top: 3px; }
+        top: 12px; }
   .button.green.inline {
     display: inline-block;
     width: auto; }
@@ -1370,12 +1376,14 @@ form#add-to-basket {
       position: absolute;
       top: 3px;
       right: 3px;
+      line-height: 38px;
       background-color: transparent; }
       .button.salmon .button-inner .icon.small {
         width: 21px;
         height: 21px;
+        line-height: 21px;
         right: 10px;
-        top: 3px; }
+        top: 12px; }
   .button.salmon.inline {
     display: inline-block;
     width: auto; }
