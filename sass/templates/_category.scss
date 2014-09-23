@@ -1,10 +1,18 @@
-#category article{
+#category{
+	@extend .clearfix;
+article{
 	@include span-columns(4 of 9);
 	@media screen and (max-width: $break-large) {
 		@include span-columns(4 of 8);
 	}
 	@media screen and (max-width: $break-small) {
 		@include span-columns(12);
+	}
+	figure{
+		border:2px solid #e0f6f3;
+		img{
+			display: block;
+		}
 	}
 	padding: 0 0 40px;
 	p{
@@ -54,3 +62,4 @@
 	}
 }
 
+}

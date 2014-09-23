@@ -28,6 +28,7 @@
 <!--main-->
 <div id="main" role="main">
     <div id="inner">
+          <div id="breadcrumbs"><a href="">Home</a> &raquo; Individual items</div>
     <header id="page-header" class="category">
     <h1>Parcels by you</h1>
     <h2>Individual items</h2>
@@ -36,19 +37,17 @@
    
    <div id="category">
     <div class="row clearfix">
-        <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Little Stripy Hat</h3><p><strong>&pound;25.00</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="green button"><span class="button-inner">Add to your parcel<span class="small icon">
-<img class="fit-grid" src="images/plus-icon.png">
+        <article><figure><a href=""><img src="images/clothing-tn.jpg" class="fit-grid" /></a></figure><h3>Clothing</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis.</p><a href="" class="pink button"><span class="button-inner">Look at our range<span class="small icon">
+<img class="fit-grid" src="images/icon-look.png">
 </span></span></a></article>
 
-   <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Pirate Vest</h3><p><strong>&pound;25.00</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="blue button"><span class="button-inner">Add to your parcel<span class="small icon">
-<img class="fit-grid" src="images/plus-icon.png">
+   <article><figure><a href=""><img src="images/toys-rattles-tn.jpg" class="fit-grid" /></a></figure><h3>Toys &amp; Rattles</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis.</p><a href="" class="pink button"><span class="button-inner">Look at our range<span class="small icon">
+<img class="fit-grid" src="images/icon-look.png">
 </span></span></a></article>
+
 </div>
 <div class="row clearfix">
-  <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Wooden Rattle</h3><p><strong>&pound;40.00</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="blue button"><span class="button-inner">Add to your parcel<span class="small icon">
-<img class="fit-grid" src="images/plus-icon.png">
-</span></span></a></article>
-     <article><figure><a href=""><img src="images/little-pirate-category-img.jpg" class="fit-grid" /></a></figure><h3>Red Neckerchief</h3><p><strong>&pound;40.00</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis. </p><a href="" class="pink button"><span class="button-inner">Add to your parcel<span class="small icon">
+  <article><figure><a href=""><img src="images/accessories-tn.jpg" class="fit-grid" /></a></figure><h3>Accessories</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum vulputate sagittis.</p><a href="" class="pink button"><span class="button-inner">Look at our range<span class="small icon">
 <img class="fit-grid" src="images/icon-look.png">
 </span></span></a></article>
 

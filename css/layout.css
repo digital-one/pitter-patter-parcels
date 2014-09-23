@@ -376,31 +376,33 @@ th {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.clearfix:before, #wrap #content:before, #footer nav#cta-links:before, #category-links:before, #parcels:before, #related:before, #gallery:before, .cart-collaterals:before, #customer_details:before, #payment:before, #payment .payment_methods li:before,
+.clearfix:before, #wrap #content:before, #footer nav#cta-links:before, #category-links:before, #parcels:before, #category:before, #related:before, #gallery:before, .cart-collaterals:before, #customer_details:before, #payment:before, #payment .payment_methods li:before, #brands:before,
 .clearfix:after,
 #wrap #content:after,
 #footer nav#cta-links:after,
 #category-links:after,
 #parcels:after,
+#category:after,
 #related:after,
 #gallery:after,
 .cart-collaterals:after,
 #customer_details:after,
 #payment:after,
-#payment .payment_methods li:after {
+#payment .payment_methods li:after,
+#brands:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */ }
 
-.clearfix:after, #wrap #content:after, #footer nav#cta-links:after, #category-links:after, #parcels:after, #related:after, #gallery:after, .cart-collaterals:after, #customer_details:after, #payment:after, #payment .payment_methods li:after {
+.clearfix:after, #wrap #content:after, #footer nav#cta-links:after, #category-links:after, #parcels:after, #category:after, #related:after, #gallery:after, .cart-collaterals:after, #customer_details:after, #payment:after, #payment .payment_methods li:after, #brands:after {
   clear: both; }
 
 /**
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-.clearfix, #wrap #content, #footer nav#cta-links, #category-links, #parcels, #related, #gallery, .cart-collaterals, #customer_details, #payment, #payment .payment_methods li {
+.clearfix, #wrap #content, #footer nav#cta-links, #category-links, #parcels, #category, #related, #gallery, .cart-collaterals, #customer_details, #payment, #payment .payment_methods li, #brands {
   *zoom: 1; }
 
 /*
@@ -1416,7 +1418,19 @@ form#add-to-basket {
             right: 5px; } }
 
 figure {
-  margin-bottom: 5px; }
+  margin-bottom: 10px; }
+
+#breadcrumbs {
+  margin-bottom: 20px;
+  color: #b3b3b3;
+  font-size: 12px;
+  font-size: 1.2rem; }
+  #breadcrumbs a {
+    color: #b3b3b3;
+    border-bottom: 1px solid transparent; }
+    #breadcrumbs a:hover, #breadcrumbs a:active {
+      color: gray;
+      border-bottom: 1px dotted gray; }
 
 /* Dropdown control */
 /* https://github.com/marcj/jquery-selectBox */
@@ -1684,6 +1698,10 @@ figure {
       width: 100%; }
       #category article:last-child {
         margin-right: 0; } }
+  #category article figure {
+    border: 2px solid #e0f6f3; }
+    #category article figure img {
+      display: block; }
   #category article p {
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 13px;
@@ -1694,35 +1712,34 @@ figure {
     @media screen and (max-width: 999px) {
       #category article .button {
         width: 100% !important; } }
-
-#page-header {
+#category #page-header {
   margin-bottom: 30px; }
   @media screen and (max-width: 639px) {
-    #page-header {
+    #category #page-header {
       margin-bottom: 10px; } }
-  #page-header h1 {
+  #category #page-header h1 {
     font-size: 38px;
     font-size: 3.8rem;
     color: #8cc8c0; }
-  #page-header.category h1 {
+  #category #page-header.category h1 {
     font-size: 20px;
     font-size: 2rem;
     margin-bottom: 5px;
     color: #000; }
-  #page-header h2 {
+  #category #page-header h2 {
     font-size: 20px;
     font-size: 2rem;
     margin-bottom: 10px;
     color: #000; }
-  #page-header.category h2 {
+  #category #page-header.category h2 {
     font-size: 38px;
     font-size: 3.8rem;
     color: #8cc8c0; }
-  #page-header.girls h2 {
+  #category #page-header.girls h2 {
     color: #eda5b7; }
-  #page-header.boys h2 {
+  #category #page-header.boys h2 {
     color: #028acd; }
-  #page-header p {
+  #category #page-header p {
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem; }
@@ -2088,6 +2105,59 @@ button.checkout-button {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
+
+#brands {
+  margin: 30px 0 0; }
+
+.brand {
+  border: 2px solid #e0f6f3;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  margin-bottom: 3.57866%; }
+  @media screen and (min-width: 640px) {
+    .brand {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 48.21067%; }
+      .brand:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 639px) {
+    .brand {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%; }
+      .brand:last-child {
+        margin-right: 0; } }
+  .brand:nth-child(2n) {
+    margin-right: 0; }
+  .brand:nth-child(2n+1) {
+    clear: left; }
+  .brand:hover, .brand:active {
+    border-color: #ccf0eb; }
+  .brand:before {
+    content: "";
+    display: block;
+    padding-top: 70%; }
+  .brand .inner {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute; }
+    .brand .inner div {
+      display: table;
+      width: 100%;
+      height: 100%; }
+      .brand .inner div span {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle; }
+        .brand .inner div span img {
+          width: 70%;
+          height: auto; }
 
 @media screen and (max-width: 999px) {
   #header {
